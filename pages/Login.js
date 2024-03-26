@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     },
     TextoInput:{
         width:300,
-        backgroundColor: '#0000CD',
+        backgroundColor: '#808080',
         color: '#fff',
         fontSize: 25,
         marginTop: 20,
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     },
     botao:{
         width:250,
-        backgroundColor: '#FF0000',
+        backgroundColor: '#4682B4',
         height:50,
         alignItems: 'center',
         justifyContent: 'center',

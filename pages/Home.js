@@ -13,7 +13,17 @@ export default function Home() {
 
       <View style={styles.caixa}>
         <Text style={styles.nome}>Nome: Maria Santos</Text>
-        <Text style={styles.frase}>Mamâe ama, mamâe cuida.</Text>
+        <Text style={styles.frase}>Mamãe ama, mamãe cuida.</Text>
+      </View>
+
+      <View style={styles.caixa}>
+        <Text style={styles.nome}>Nome: Pedro Santos</Text>
+        <Text style={styles.frase}>Acredite nos seus sonhos.</Text>
+      </View>
+
+      <View style={styles.caixa}>
+        <Text style={styles.nome}>Nome: Carlos Pereira</Text>
+        <Text style={styles.frase}>O sorriso é o melhor acessório.</Text>
       </View>
 
       <StatusBar style="auto" />
@@ -24,7 +34,7 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#E0FFFF',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -32,13 +42,14 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
-    padding:50
+    padding: 50,
   },
   caixa: {
-    backgroundColor: '#f2f2f2',
-    padding: 16,
+    backgroundColor: '#7FFFD4',
+    padding: 20,
     borderRadius: 8,
-    marginBottom: 10,
+    marginBottom: 30,
+    width: 300
   },
   nome: {
     fontSize: 18,
